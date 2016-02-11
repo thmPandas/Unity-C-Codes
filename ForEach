@@ -1,0 +1,3 @@
+foreach (Transform child in this.transform.parent.transform){
+            child.transform.GetComponent<CanvasGroup>().blocksRaycasts = false;
+        }
